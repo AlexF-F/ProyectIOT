@@ -6,7 +6,9 @@ Esta linea representa el primer commit por interfaz web en repositorio remoto
 Esta linea representa el segundo commit por interfaz web en repositorio remoto
 
 Esata linea representada es escrita por la terminal
+
 Esta linea representa el segundo commit por terminal
-Linea echa pr interfaz virtual de higub
+
+Linea echa por interfaz virtual de higub
 
 
