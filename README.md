@@ -9,6 +9,8 @@ Esata linea representada es escrita por la terminal
 
 Esta linea representa el segundo commit por terminal
 
-Linea echa por interfaz virtual de higub
+Linea echa por interfaz virtual de higu
+
+Linea echa por pull combinar
 
 
