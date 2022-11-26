@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html>
+	<title> Facebook - Inicia sesion o registrate </title>
+
+	<head> 
+	<style>
+		body
+{
+
+ width:50%;
+ margin:25%;
+ padding:0px;
+ font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+ background: linear-gradient(gray, #000000);
+}
+
+.fondo{
+    background-image: url(https://cdn.pixabay.com/photo/2011/12/13/17/07/world-11047_960_720.jpg);
+	top: 200px;
+	left: 300px;
+	height: 400px;
+	width: 800px;
+    }
+
+.cabecera1
+{
+	position: absolute;
+	width:100%;
+	height: 85px;
+	top: 0;
+	left: 0;
+	color: white;
+	
+	font-family: arial;
+	-webkit-box-shadow: o 3px 8px rgba(0, 0, 0, .25);
+}
+
+.cabecera
+{
+	position: absolute;
+	width:100%;
+	height: 85px;
+	top: 0;
+	background: #000000;
+	left: 50px;
+	color:white;
+		
+	font-family: monserrat,sans-serif;
+}
+
+
+
+.boton
+{
+	position: absolute;
+	left: 1100px;
+	top: 32px;
+	background: #A41F1F;
+	color: white;
+	font-family: verdana;
+	
+	z-index: 20;
+	height: 22px;
+	width: 95px;
+	cursor: pointer;
+	border:1px solid #7F1717;
+}
+
+.z
+{
+
+	position: absolute;
+	left: 50;
+	top: 120px;
+	width: 100%;
+	height: 645px;
+}
+
+#texto1
+{
+	top: 0px;
+	left: 100px;
+	font-family: arial;
+	font-size: 20px;
+	color: #FFFFFF;
+	height: 75px;
+	width: 550px;
+}
+
+#texto2
+{
+	top: 0px;
+	left: 700px;
+	font-family: arial;
+	font-size: 35px;
+	color: #FFFFFF;;
+	height: 60px;
+	width: 500px;
+}
+
+#texto3
+{
+	top: 50px;
+	left: 700px;
+	font-family: arial;
+	font-size: 20px;
+	color: #FFFFFF;;
+	height: 60px;
+	width: 500px;
+}
+
+#img
+{
+	
+	top: 70px;
+	left: 100px;
+	height: 250px;
+	width: 550px;
+}
+
+#datos3
+{
+	
+	left: 700px;
+	font-family: arial;
+	font-size: 20px;
+	color: #FFFFFF;
+	height: 495px;
+	 margin-left:2%;
+ 	width:49%;
+}
+
+#caja1
+{
+	width: 196px;
+	height: 40px;
+	 border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+
+}
+#caja2
+{
+	width: 400px;
+	height: 40px;
+	border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+
+#caja3
+{
+	width: 200px;
+	height: 30px;
+	border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+
+.boton2
+{
+	width: 250px;
+	height: 40px;
+	left: 800px;
+	top: 625px;
+	background: #A41F1F;
+	color: white;
+	font-size: 20px;
+	border-radius: 7px/7px;
+	cursor: pointer;
+	outline: none;
+	border:1px solid #7F1717;
+}
+
+#titulo
+{
+	text-decoration:none;
+	
+	font-size: 45px;
+	left: 165px;
+	height: 50px;
+	font-width:900;
+	top: 20px;
+}
+
+#datos1
+{
+	margin-top:3px;
+    margin-bottom:3px;
+	left: 700px;
+	top: 20px;
+	height: 60px;
+	width: 170px;
+	font-size: 13px;
+}
+
+#datos2
+{
+	left: 895px;
+	top: 20px;
+	height: 60px;
+	width: 170px;
+	font-size: 13px;
+}
+
+
+#bot
+{
+    left: 1000px;
+	height: 60px;
+	width: 170px;
+	font-size: 11px;
+    margin-top:20px;
+    color:white;
+    border:1px solid #08298A;
+}
+
+.dad
+{
+	font-size: 15px;
+	color: white;
+	line-height: 15px;
+}
+
+.abajo
+{
+	position: absolute;
+	left: 0px;
+	top: 800px;
+	width: 100%;
+	height: 200px;
+	background: gray;
+	font-size: 10px;
+	font-family: verdana;
+	word-spacing: 7pt;
+}
+
+#abajo1
+{
+	width: 100%;
+	top: 20px;
+	left: 200px;
+	color: white;
+	height: 100px;
+	font-size: 15px;
+	font-family: verdana;
+	word-spacing: 7pt;
+}
+
+	</style>
+	</head>
+
+	<body> 
+		<div class="cabecera1"> </div>
+		<div class="cabecera"> </div>
+		<div id="titulo" class="cabecera"> Facebook</div>
+
+		<div id="datos1" class="cabecera"> Correo electronico o telefono <br> 
+		<input type="email" name="name"/> </div>
+
+		<div id="datos2" class="cabecera"> Contrase&ntilde;a <br>
+		<input type="password" name="password"/> <br>
+		Olvidaste tu contrase&ntilde;a 
+		</div>
+	 
+		<input type="submit" class="boton" name="entrar" value="Iniciar sesion"> </div>
+	  
+		<div class="z"> 
+		<div id="texto1" class="z"> Facebook te ayuda a comunicarte y compartir <br>
+		con las personas que forman parte de tu vida. </div>
+		<div id="texto2" class="z">Registrate </div>
+		<div id="texto3" class="z">Es gratis y lo sera siempre </div>
+		<div id="img" class="z"> <img src="https://drive.google.com/file/d/1XtKh8VqumcH4n4uvki0ii7bOCnxcWBi_/view?usp=sharing"/> </div>
+
+		<form method="post" action="datos" class= "formulario">
+
+			<div class="fondo"></div>
+		<div id="datos3" class="z"> 
+		<input placeholder="Nombre" type="text" id="caja1" name="nombre"/>
+		<input placeholder="Apellidos" type="text" id="caja1" name="apellido"/> <br> <br>
+		<input placeholder="Numero de celular o correo electronico" type="text" id="caja2" name="email"/> <br> <br>
+		<input placeholder="Contrase&ntilde;a" type="password" id="caja2" name="contra" /> <br> <br>
+		<p2> Fecha de nacimiento <br> <br>
+		<input type="date" id="caja3" name="fecha"/> <br> <br>
+		<input type="radio" name="sexo" value="mujer"/> Mujer
+		<input type="radio" name="sexo" value="hombre"/> Hombre <br> <br> </p2>
+
+
+		<div class="dad">
+		<p> Al hacer clic en "Registrarte", aceptas nuestras Condiciones, la <br>
+		Política de datos y la Política de cookies. Es posible que te <br>
+		enviemos notificaciones por SMS, que puedes <br>
+		desactivar cuando quieras. </p> <br>
+	</div>
+
+		<input type="submit" class="boton2" value="Registrar"/> </div>
+
+
+
+	</form>
+
+	<div class="abajo">
+		<div id="abajo1" class="abajo"> Español <br> <hr>
+			Registrarte   Iniciar   sesión   Messenger   Facebook Lite   Buscar amigos   Personas   Perfiles   Páginas   Categorías de
+			páginas   Lugares   Juegos   Ubicaciones <br>  Marketplace   Grupos   Instagram   Local   Recaudaciones de fondos   Información  Crear anuncio   Crear página   Desarrolladores   Empleo   Privacidad   Cookies <br> Opciones de anuncios   Condiciones   Seguridad de la cuenta   Ayuda para iniciar sesión   Ayuda   Configuración   Registro de actividad <br> <br> 
+			Facebook © 2019 </div>
+		
+	</body>
